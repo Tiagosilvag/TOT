@@ -1,0 +1,3 @@
+Data Source=
+(DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = piv-clu-scan)(PORT = 1521))
+(CONNECT_DATA = (SERVER = DEDICATED) (SERVICE_NAME = pdw1)));
