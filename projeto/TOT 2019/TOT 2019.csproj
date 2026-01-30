@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\A0166936\Documents\TOT 2019_1_0_0_154\TOT 2019.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{35072304-C52D-4C3F-B190-ECC52AD414A3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>TOT 2019</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DocumentFormat.OpenXml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Microsoft\Office\Interop\Excel\AppEvents.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\AppEvents_Event.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\Application.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\DocEvents.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\DocEvents_Event.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\Hyperlinks.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\Range.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\Sheets.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\Tab.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\Window.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\Workbook.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\WorkbookEvents.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\WorkbookEvents_Event.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\Workbooks.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\Worksheet.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\XlAutoFilterOperator.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\XlWBATemplate.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\_Application.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\_Workbook.cs" />
+    <Compile Include="Microsoft\Office\Interop\Excel\_Worksheet.cs" />
+    <Compile Include="Microsoft\Office\Interop\Outlook\Account.cs" />
+    <Compile Include="Microsoft\Office\Interop\Outlook\Accounts.cs" />
+    <Compile Include="Microsoft\Office\Interop\Outlook\AccountsEvents.cs" />
+    <Compile Include="Microsoft\Office\Interop\Outlook\AccountsEvents_Event.cs" />
+    <Compile Include="Microsoft\Office\Interop\Outlook\Application.cs" />
+    <Compile Include="Microsoft\Office\Interop\Outlook\ApplicationEvents_11.cs" />
+    <Compile Include="Microsoft\Office\Interop\Outlook\ApplicationEvents_11_Event.cs" />
+    <Compile Include="Microsoft\Office\Interop\Outlook\Attachment.cs" />
+    <Compile Include="Microsoft\Office\Interop\Outlook\Attachments.cs" />
+    <Compile Include="Microsoft\Office\Interop\Outlook\ItemEvents_10.cs" />
+    <Compile Include="Microsoft\Office\Interop\Outlook\ItemEvents_10_Event.cs" />
+    <Compile Include="Microsoft\Office\Interop\Outlook\MailItem.cs" />
+    <Compile Include="Microsoft\Office\Interop\Outlook\NameSpace.cs" />
+    <Compile Include="Microsoft\Office\Interop\Outlook\NameSpaceEvents.cs" />
+    <Compile Include="Microsoft\Office\Interop\Outlook\NameSpaceEvents_Event.cs" />
+    <Compile Include="Microsoft\Office\Interop\Outlook\OlAttachmentType.cs" />
+    <Compile Include="Microsoft\Office\Interop\Outlook\OlItemType.cs" />
+    <Compile Include="Microsoft\Office\Interop\Outlook\PropertyAccessor.cs" />
+    <Compile Include="Microsoft\Office\Interop\Outlook\Recipient.cs" />
+    <Compile Include="Microsoft\Office\Interop\Outlook\Recipients.cs" />
+    <Compile Include="Microsoft\Office\Interop\Outlook\_Account.cs" />
+    <Compile Include="Microsoft\Office\Interop\Outlook\_Accounts.cs" />
+    <Compile Include="Microsoft\Office\Interop\Outlook\_Application.cs" />
+    <Compile Include="Microsoft\Office\Interop\Outlook\_MailItem.cs" />
+    <Compile Include="Microsoft\Office\Interop\Outlook\_NameSpace.cs" />
+    <Compile Include="Microsoft\Office\Interop\Outlook\_PropertyAccessor.cs" />
+    <Compile Include="TOT\DAL.cs" />
+    <Compile Include="TOT\frmAdicionarObjeto.cs" />
+    <Compile Include="TOT\frmCalculo.cs" />
+    <Compile Include="TOT\frmCalendario.cs" />
+    <Compile Include="TOT\frmDashboard.cs" />
+    <Compile Include="TOT\frmDataQuality.cs" />
+    <Compile Include="TOT\frmDataQualityDedicado.cs" />
+    <Compile Include="TOT\frmEstatisticas.cs" />
+    <Compile Include="TOT\frmGrafico.cs" />
+    <Compile Include="TOT\frmHabilitarEdicao.cs" />
+    <Compile Include="TOT\frmHologacao.cs" />
+    <Compile Include="TOT\frmListaEmailDemandaConcluida.cs" />
+    <Compile Include="TOT\frmParametros.cs" />
+    <Compile Include="TOT\frmDWTeradata.cs" />
+    <Compile Include="TOT\frmETL.cs" />
+    <Compile Include="TOT\FrmLogin.cs" />
+    <Compile Include="TOT\frmPreferencias.cs" />
+    <Compile Include="TOT\frmPrincipal.cs" />
+    <Compile Include="TOT\frmProcesso.cs" />
+    <Compile Include="TOT\frmConsultaBancos.cs" />
+    <Compile Include="TOT\BLL.cs" />
+    <Compile Include="TOT\Globals.cs" />
+    <Compile Include="TOT\frmZoomTexto.cs" />
+    <Compile Include="TOT\Program.cs" />
+    <Compile Include="TOT\Properties\Settings.cs" />
+    <Compile Include="TOT\Properties\Resources.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TOT\frmAdicionarObjeto.resx" />
+    <EmbeddedResource Include="TOT\frmCalculo.resx" />
+    <EmbeddedResource Include="TOT\frmCalendario.resx" />
+    <EmbeddedResource Include="TOT\frmConsultaBancos.resx" />
+    <EmbeddedResource Include="TOT\frmDashboard.resx" />
+    <EmbeddedResource Include="TOT\frmDataQuality.resx" />
+    <EmbeddedResource Include="TOT\frmDataQualityDedicado.resx" />
+    <EmbeddedResource Include="TOT\frmDWTeradata.resx" />
+    <EmbeddedResource Include="TOT\frmEstatisticas.resx" />
+    <EmbeddedResource Include="TOT\frmETL.resx" />
+    <EmbeddedResource Include="TOT\frmGrafico.resx" />
+    <EmbeddedResource Include="TOT\frmHabilitarEdicao.resx" />
+    <EmbeddedResource Include="TOT\frmHologacao.resx" />
+    <EmbeddedResource Include="TOT\frmListaEmailDemandaConcluida.resx" />
+    <EmbeddedResource Include="TOT\FrmLogin.resx" />
+    <EmbeddedResource Include="TOT\frmParametros.resx" />
+    <EmbeddedResource Include="TOT\frmPreferencias.resx" />
+    <EmbeddedResource Include="TOT\frmPrincipal.resx" />
+    <EmbeddedResource Include="TOT\frmProcesso.resx" />
+    <EmbeddedResource Include="TOT\frmZoomTexto.resx" />
+    <EmbeddedResource Include="TOT\Properties\Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
